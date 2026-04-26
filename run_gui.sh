@@ -3,5 +3,5 @@
 export HF_HOME=huggingface
 export PYTHONUTF8=1
 
-python gui.py "$@"
+$(dirname "$0")/venv/bin/python gui.py "$@"
 
